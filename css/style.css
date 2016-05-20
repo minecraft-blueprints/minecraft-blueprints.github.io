@@ -29,17 +29,25 @@ table {
   border-collapse: collapse;
 }
 th { 
-  background-color: lightgrey; 
-  padding: 10px; 
-  width: 200px; 
+  background-color: lightgrey;
+  margin-left: auto;
+  padding: 2px;
+  width: 220px; 
   text-align: left;
+  color: black;
+  font-size: 10px;
+  font-family: Arial, Serif;
+  font-style: normal;
 }
 tr:nth-child(odd) {
   background: #eee;
 }
 td { 
-  padding: 10px; 
-  width: 200px; 
+  padding: 7px; 
+  width: 200px;
+  font-family: Arial;
+  font-style: normal;
+  color: black;
 }
 
 .some-other-area {
@@ -51,4 +59,11 @@ h2 {
   padding: 10px;
   font: 28px Georgia, Serif;
   margin: 0 0 20px 0;
+}
+a {
+  color: black;
+  padding-right: 131px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  padding-left: 0px;
 }
