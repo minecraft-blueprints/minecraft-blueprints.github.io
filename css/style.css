@@ -32,7 +32,7 @@ th {
   background-color: lightgrey;
   margin-left: auto;
   padding: 2px;
-  width: 323px; 
+  width: 220px; /* 323px*/ 
   text-align: left;
   color: black;
   font-size: 10px;
@@ -48,6 +48,7 @@ td {
   font-family: Arial;
   font-style: normal;
   color: black;
+  white-space: nowrap;
 }
 
 .some-other-area {
@@ -62,7 +63,7 @@ h2 {
 }
 a {
   color: black;
-  padding-right: 131px;
+  padding-right: 130px;
   padding-bottom: 7px;
   padding-top: 7px;
   padding-left: 0px;
