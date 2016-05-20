@@ -32,7 +32,7 @@ th {
   background-color: lightgrey;
   margin-left: auto;
   padding: 2px;
-  width: 220px; /* 323px*/ 
+  /*width: 220px; 323px*/
   text-align: left;
   color: black;
   font-size: 10px;
@@ -50,21 +50,31 @@ td {
   color: black;
   white-space: nowrap;
 }
-
 .some-other-area {
-  margin: 300px 0;
-  line-height: 2;
+  margin-left: auto;
+  background-color: lightgrey;
+  text-align: left;
+  padding: 2px;
+  color: black;
+  font-size: 10px;
+  font-family: Arial, Serif;
+  font-style: normal;
 }
 h2 {
-  background: lightgrey;
-  padding: 10px;
-  font: 28px Georgia, Serif;
-  margin: 0 0 20px 0;
+  background-color: lightgrey;
+  margin-left: auto;
+  padding: 2px;
+  /*width: 220px; 323px*/
+  text-align: left;
+  color: black;
+  font-size: 10px;
+  font-family: Arial, Serif;
+  font-style: normal;
 }
 a {
   color: black;
-  padding-right: 130px;
-  padding-bottom: 7px;
-  padding-top: 7px;
-  padding-left: 0px;
+  padding-right: 13px !important; /*130*/
+  padding-bottom: 7px !important;
+  padding-top: 7px !important;
+  padding-left: 0px !important;
 }
