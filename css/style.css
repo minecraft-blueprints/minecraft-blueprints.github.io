@@ -20,7 +20,8 @@ p {
 }
 #page-wrap { 
   width: 500px; 
-  margin: 100px auto; 
+  margin: 100px auto;
+  height: 850px;
 }
 .spacer { 
   height: 600px; 
@@ -32,7 +33,7 @@ th {
   background-color: lightgrey;
   margin-left: auto;
   padding: 2px;
-  /*width: 220px; 323px*/
+  width: 250px; /*323px*/ 
   text-align: left;
   color: black;
   font-size: 10px;
@@ -48,33 +49,21 @@ td {
   font-family: Arial;
   font-style: normal;
   color: black;
-  white-space: nowrap;
 }
 .some-other-area {
-  margin-left: auto;
-  background-color: lightgrey;
-  text-align: left;
-  padding: 2px;
-  color: black;
-  font-size: 10px;
-  font-family: Arial, Serif;
-  font-style: normal;
+  margin: 300px 0;
+  line-height: 2;
 }
 h2 {
-  background-color: lightgrey;
-  margin-left: auto;
-  padding: 2px;
-  /*width: 220px; 323px*/
-  text-align: left;
-  color: black;
-  font-size: 10px;
-  font-family: Arial, Serif;
-  font-style: normal;
+  background: lightgrey;
+  padding: 10px;
+  font: 28px Georgia, Serif;
+  margin: 0 0 20px 0;
 }
 a {
   color: black;
-  padding-right: 13px !important; /*130*/
-  padding-bottom: 7px !important;
-  padding-top: 7px !important;
-  padding-left: 0px !important;
+  padding-right: 13px; /*130*/
+  padding-bottom: 7px;
+  padding-top: 7px;
+  padding-left: 0px;
 }
